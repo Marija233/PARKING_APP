@@ -27,3 +27,7 @@ Android aplikacija za rezervacija na parking mesta vo razni gradovi vo koja imam
 
 -reservation confirmation , sodrzi kopce navigacija ,tekst za uspesna rezervacija, i kopce moi rezervacii.
 
+
+
+-isto taka vo cities page go imam implementirano menito vo koe kako elementi mi se vneseni reservation form, parking places, reservation confirmation ,exit- za izlez od aplikacija, i logout-za korisnikot da se odjavi od app, i so klik na bilo koj od niv se otvara soodvetniot page.
+
