@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuItemReservations"
+        android:checkable="true"
+        android:icon="@drawable/ic_reservation"
+        android:title="@string/my_reservations"
+        android:visible="true" />
+    <item
+        android:id="@+id/menuItemParkingPlaces"
+        android:checkable="true"
+        android:icon="@drawable/ic_reservation"
+        android:title="@string/parking_places"
+        android:visible="true" />
+    <item
+        android:id="@+id/menuItemReservationConfirmation"
+        android:checkable="true"
+        android:icon="@drawable/ic_reservation"
+        android:title="@string/reservations_conf"
+        android:visible="true" />
+
+    <item
+        android:id="@+id/menuItemExit"
+        android:checkable="true"
+        android:icon="@drawable/ic_exit"
+        android:title="@string/exit"
+        android:visible="true" />
+
+    <group
+        android:id="@+id/exitGroup"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/menuItemLogout"
+            android:checkable="true"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/logout"
+            android:visible="true" />
+    </group>
+</menu>

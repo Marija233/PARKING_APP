@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">ParkingApp</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="not_registered">Not registered? Click here</string>
+    <string name="login">Login</string>
+    <string name="repeat_password">Repeat password</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="exit">Exit app</string>
+    <string name="logout">Logout</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="reservation">Reserve</string>
+    <string name="my_reservations">Reservation form</string>
+    <string name="parking_places">Parking Places</string>
+    <string name="reservations_conf">Reservation confirmation</string>
+    <string name="city_name">City name:</string>
+    <string name="total_spaces">Total spaces: 114</string>
+    <string name="free_spaces">Free spaces: 38</string>
+    <string name="fee">Fee: 30den/h</string>
+
+    <string name="spinner_prompt">Choose</string>
+    <string name="simple_header">Pick a time slot</string>
+    <string name="dynamic_list_header"></string>
+    <string name="selection_header">Second choice</string>
+
+    <string-array name="cities_array">
+        <item>09:00-10:00</item>
+        <item>10:00-11:00</item>
+        <item>11:00-12:00</item>
+        <item>12:00-13:00</item>
+        <item>13:00-14:00</item>
+        <item>14:00-15:00</item>
+        <item>15:00-16:00</item>
+    </string-array>
+
+
+</resources>

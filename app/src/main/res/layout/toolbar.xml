@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:layout_gravity="top"
+    android:background="@color/design_default_color_primary">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/toolbarContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/toolbarBackButton"
+            android:layout_width="36dp"
+            android:layout_height="0dip"
+            android:contentDescription="@null"
+            android:paddingStart="0dp"
+            android:paddingEnd="10dp"
+            android:src="@drawable/ic_back"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/toolbarTitle"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif"
+            android:maxLines="1"
+            android:paddingStart="0dp"
+            android:paddingEnd="10dp"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="@id/toolbarContainer"
+            app:layout_constraintEnd_toStartOf="@id/logo"
+            app:layout_constraintStart_toEndOf="@id/toolbarBackButton"
+            app:layout_constraintTop_toTopOf="@id/toolbarContainer" />
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="64dp"
+            android:layout_height="0dip"
+            android:contentDescription="@null"
+            android:padding="14dp"
+            android:src="@drawable/parking_logo"
+            app:layout_constraintBottom_toBottomOf="@id/toolbarContainer"
+            app:layout_constraintEnd_toEndOf="@id/toolbarContainer"
+            app:layout_constraintStart_toEndOf="@id/toolbarTitle"
+            app:layout_constraintTop_toTopOf="@id/toolbarContainer" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.appcompat.widget.Toolbar>
